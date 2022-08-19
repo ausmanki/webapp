@@ -63,7 +63,7 @@ if __name__ == "__main__":
         parser.add_argument('--build_id', help="Reference to external build id", required=False)
 
         # Parse out arguments
-        args = vars(parser.parse_args())
+        #args = vars(parser.parse_args())
         host = args["host"]
         api_key = args["api_key"]
         user = args["username"]
